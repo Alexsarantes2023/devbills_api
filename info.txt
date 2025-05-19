@@ -1,0 +1,62 @@
+iniciando projeto criando o package.json
+npm init -y
+
+
+//usando fastify no lugar do express
+yarn add fastify
+
+yarn add -D typescript tsx @types/node
+
+//configurando o package.json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx watch src/server.ts"
+  },
+
+
+yarn dev
+
+//criando o tsconfig.json
+npx tsc --init
+
+instalando o biome para eslint e prier
+yarn add --dev --exact @biomejs/biome
+
+criando arquivo de configuração do biome
+yarn biome init
+
+criar o arquivo .env
+
+instalar o dotenv
+yarn add dotenv
+
+login e a senha para o banco de dados mongdb
+Login: alexsarantes
+senha: wYDzEbxJipPyGcmt
+
+npm install mongodb
+
+conector do banco de dados abaixo:
+mongodb+srv://alexsarantes:wYDzEbxJipPyGcmt@devbills.inm0bgp.mongodb.net/?retryWrites=true&w=majority&appName=DevBills
+
+
+ou o mongoose ou o prisma para conectar com o banco de dados
+yarn add -D prisma
+
+gerando arquivo do prisma
+npx prisma init --datasource-provider mongodb --output ../generated/prisma
+
+ajuda a enxergar nossos dados
+yarn add @prisma/client
+
+
+
+npx prisma generate
+
+criando as colections
+npx prisma db push
+
+abrindo em outra aba a forma visual
+npx prisma studio
+
+

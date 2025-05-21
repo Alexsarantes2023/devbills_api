@@ -1,6 +1,6 @@
 import type { FastifyReply, FastifyRequest } from "fastify";
 import prisma from "../config/prisma";
-import { error } from "console";
+
 
 
 export const getCategories = async (request: FastifyRequest, reply: FastifyReply):Promise<void> => {

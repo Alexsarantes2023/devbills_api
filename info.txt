@@ -60,3 +60,7 @@ abrindo em outra aba a forma visual
 npx prisma studio
 
 
+yarn add zod
+
+recurso da aula 15 da api
+yarn add zod-to-json-schema

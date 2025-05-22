@@ -13,7 +13,6 @@ const createTransaction = async (request: FastifyRequest, reply: FastifyReply): 
 
     //validacao dos dados em schema
     const result = createTransactionSchema.safeParse(request.body);
-
     if (!result.success) {
         const errorMessage = result.error.errors[0].message || "Validação inválida";
 

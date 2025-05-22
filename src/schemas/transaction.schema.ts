@@ -2,10 +2,6 @@ import { TransactionType } from "@prisma/client";
 import { ObjectId } from "mongodb";
 import { z } from "zod";
 
-
-
-
-
 const isValidObjectId = (id: string): boolean => ObjectId.isValid(id);
 
 export const createTransactionSchema = z.object({

@@ -64,3 +64,9 @@ yarn add zod
 
 recurso da aula 15 da api
 yarn add zod-to-json-schema
+
+//biblioteca de tempo date-fns e dayjs (muto leve)
+yarn add dayjs
+
+
+import utc from "dayjs/plugin/utc";
